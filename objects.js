@@ -1,6 +1,6 @@
 var playlist = { Kesha: "Tick Tock" };
 
-function updatePlaylist(object, artist, song) {
-  object[artist] = song;
-  return object;
+function updatePlaylist(playlist, artistName, songTitle){
+  playlist[artistName] = songTitle;
+  return playlist;
 }
